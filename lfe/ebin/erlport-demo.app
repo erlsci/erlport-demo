@@ -1,0 +1,10 @@
+{application,'erlport-demo',
+             [{description,"My project description..."},
+              {vsn,"0.0.1"},
+              {modules,['erlport-demo-app','erlport-demo-server',
+                        'erlport-demo-util']},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {included_applications,[]},
+              {mod,{e2_application,['erlport-demo-app']}},
+              {env,[]}]}.
